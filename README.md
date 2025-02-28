@@ -46,3 +46,22 @@ The model uses deep learning techniques, specifically **Convolutional Neural Net
 
 The model's performance is evaluated using **log loss** (cross-entropy loss), which is a measure of how well the predicted probabilities match the actual labels. The lower the log loss, the better the model's performance.
 
+## Requirements
+The following libraries and tools are required to run the code:
+
+*Python 3.x
+TensorFlow or PyTorch (for model development)
+Keras (for deep learning)
+scikit-learn (for data preprocessing and evaluation metrics)
+OpenCV (for image processing)
+Pandas (for data handling)*
+
+### Installation
+1. Clone this repository:
+
+**git clone https://github.com/your-username/conser-vision.git
+cd conser-vision**
+
+2. Install the required dependencies:
+
+**pip install -r requirements.txt**
