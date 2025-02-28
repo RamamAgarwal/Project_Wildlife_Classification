@@ -49,12 +49,12 @@ The model's performance is evaluated using **log loss** (cross-entropy loss), wh
 ## Requirements
 The following libraries and tools are required to run the code:
 
-*Python 3.x
-TensorFlow or PyTorch (for model development)
-Keras (for deep learning)
-scikit-learn (for data preprocessing and evaluation metrics)
-OpenCV (for image processing)
-Pandas (for data handling)*
+- **Python 3.x**
+- **TensorFlow or PyTorch (for model development)**
+- **Keras (for deep learning)**
+- **scikit-learn (for data preprocessing and evaluation metrics)**
+- **OpenCV (for image processing)**
+- **Pandas (for data handling)**
 
 ### Installation
 1. Clone this repository:
