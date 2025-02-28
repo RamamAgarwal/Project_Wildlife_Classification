@@ -59,7 +59,7 @@ The following libraries and tools are required to run the code:
 ### Installation
 1. Clone this repository:
 
-**git clone https://github.com/your-username/conser-vision.git
+**git clone https://github.com/RamamAgarwal/conser-vision.git
 cd conser-vision**
 
 2. Install the required dependencies:
