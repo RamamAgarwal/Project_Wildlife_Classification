@@ -46,6 +46,11 @@ The model uses deep learning techniques, specifically **Convolutional Neural Net
 
 The model's performance is evaluated using **log loss** (cross-entropy loss), which is a measure of how well the predicted probabilities match the actual labels. The lower the log loss, the better the model's performance.
 
+## Results and Findings
+
+We achieved Cross entropy loss/ Log loss of 1.2567 on test data which is quite high from the benchmark baseline model having log loss of 1.8210.
+Our competition is an advanced level practice competition. With over 1500 participants joined and 330 leaderboard ranks, we achieved #24 rank which makes us in top 7.2%
+
 ## Requirements
 The following libraries and tools are required to run the code:
 
@@ -65,3 +70,6 @@ cd conser-vision**
 2. Install the required dependencies:
 
 **pip install -r requirements.txt**
+
+
+
