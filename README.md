@@ -48,8 +48,8 @@ The model's performance is evaluated using **log loss** (cross-entropy loss), wh
 
 ## Results and Findings
 
-We achieved Cross entropy loss/ Log loss of 1.2567 on test data which is quite high from the benchmark baseline model having log loss of 1.8210.
-Our competition is an advanced level practice competition. With over 1500 participants joined and 330 leaderboard ranks, we achieved #24 rank which makes us in top 7.2%
+Achieved cross entropy loss/log loss of 1.2567 on test data which is quite high from the benchmark baseline model having a log loss of 1.8210.
+Since this is an advanced level practice competition on drivenata.org with over 1500 participants joined and 330 leaderboard ranks, able to achieve #24 rank i.e coming in top 7.2%
 
 ## Requirements
 The following libraries and tools are required to run the code:
