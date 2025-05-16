@@ -18,9 +18,9 @@ Each image either contains one of these animal species or has no animals (blank)
 
 The competition involves classifying camera trap images, where each image is assigned a label indicating one of the species or marked as **blank** if there are no animals detected in the image. The challenge is set up as a multi-class classification problem with the added difficulty of handling images from different environmental conditions and ensuring the model generalizes well to unseen data from different sites within the park.
 
-## Dataset
+## Dataset Description
 
-The dataset consists of images taken from camera traps at different sites in **Taï National Park**. The training and testing datasets are split by site, with no overlap between the training and testing sets.
+The dataset consists of images taken from camera traps at different sites in **Taï National Park**. There are total seven species/categories/classes of animals including rodents, birds, antelopes, civets, hogs, leapards and monkeys. Each image either contains one of these animal species or has no animals (blank). The training and testing datasets are split by site, with no overlap between the training and testing sets.
 
 ### Training Data
 - **train_features**: Images of wildlife and blank scenes.
@@ -36,7 +36,7 @@ The dataset consists of images taken from camera traps at different sites in **T
 
 ## Model
 
-The model uses deep learning techniques, specifically **Convolutional Neural Networks (CNNs)**, to classify images. The model leverages **transfer learning** from a pre-trained model (e.g., ResNet50, EfficientNet) and fine-tunes it on the provided dataset to predict species classifications or blank images.
+The model uses deep learning techniques, specifically **Convolutional Neural Networks (CNNs)**, to classify images. The model leverages **transfer learning** from a pre-trained model (EfficientNetB0) and fine-tunes it on the provided dataset to predict species classifications or blank images.
 
 ### Preprocessing
 - Image augmentation techniques such as rotation, flipping, and color jittering are applied to improve model generalization.
