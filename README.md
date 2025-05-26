@@ -1,5 +1,9 @@
 # Project_Wildlife_Classification
 
+## Abstract
+
+Wildlife monitoring through camera-trap images is vital for conservation, yet manual annotation of vast image datasets is time-consuming and prone to human error. This project addresses the challenge of automating wildlife species classification from camera trap images. Previous studies used clean datasets achieving high accuracy but leading to overfitting and poor generalization. They fail under real-world environmental noise, such as adverse weather, occlusion, and lighting issues. In this project, we propose a Convolutional Classifier for robust wildlife image classification under authentic field conditions, also relying on site metadata.
+
 This project mainly focuses on using computer vision to classify wildlife species in camera trap images. The dataset used for this project is provided by the **Wild Chimpanzee Foundation** and the **Max Planck Institute for Evolutionary Anthropology**, specifically for images captured in **Taï National Park**.
 
 The task is to develop a machine learning model capable of classifying images into one of the following categories:
@@ -11,6 +15,8 @@ The task is to develop a machine learning model capable of classifying images in
 - **leopard**
 - **monkey_prosimian**
 - **rodent**
+
+![final image](https://github.com/user-attachments/assets/e8b5a828-2361-48df-bb89-15a2b67e8419)
 
 Each image either contains one of these animal species or has no animals (blank). The goal is to build a model that predicts the probability distribution across these classes.
 
