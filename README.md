@@ -16,9 +16,11 @@ The task is to develop a machine learning model capable of classifying images in
 - **monkey_prosimian**
 - **rodent**
 
-![final image](https://github.com/user-attachments/assets/e8b5a828-2361-48df-bb89-15a2b67e8419)
-
 Each image either contains one of these animal species or has no animals (blank). The goal is to build a model that predicts the probability distribution across these classes.
+
+# Workflow
+
+![final image](https://github.com/user-attachments/assets/e8b5a828-2361-48df-bb89-15a2b67e8419)
 
 ## Problem Overview
 
