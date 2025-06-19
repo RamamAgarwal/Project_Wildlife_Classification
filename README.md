@@ -72,8 +72,7 @@ The following libraries and tools are required to run the code:
 ### Installation
 1. Clone this repository:
 
-**git clone https://github.com/RamamAgarwal/conser-vision.git
-cd conser-vision**
+**git clone https://github.com/RamamAgarwal/Project_Wildlife_Classification.git
 
 2. Install the required dependencies:
 
